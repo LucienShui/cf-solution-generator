@@ -21,3 +21,9 @@ Run `python3 gen.py <contest id> a <blog id>` to get a `.md` file with code of `
 This script require [cf-tool](https://github.com/xalanq/cf-tool)
 
 After cf-tool login, run `bash pull.sh <contest id> <blog id>` to get all `.md` with the code you have passed
+
+## Build
+
+Require `pyinstaller`
+
+run `pyinstaller --onefile --clean --noconfirm gen.py`
